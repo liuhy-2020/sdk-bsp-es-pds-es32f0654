@@ -1,0 +1,103 @@
+board:
+  buy_url_cn: https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.6.36e553baEWcaMk&id=594626238024&user_id=4034673403&cat_id=2&is_b=1&rn=af5199aad00dff3893ea375dc946b103
+  buy_url_global: https://www.essemi.com/
+  debug_interface: SWD
+  debugger: DAP-LINK
+  description_en:   .
+  description_zh: ES-PDS-ES32F0654是东软载波官方推出的一款基于 ARM Cortex-M0 内核的开发板。ES-PDS（原型开发系统）以高性价比，灵活的扩展方式，提供原型设计和评估支持。
+  emulator_machine: ''
+  large_image: documents/images/board_large.jpg
+  name: ES-PDS-ES32F0654
+  price_cn: 100.00 CNY
+  price_global: 20.00 USD
+  sale_contact_cn: https://www.essemi.com/
+  sale_contact_global: https://www.essemi.com/
+  small_image: documents/images/board_small.jpg
+  vendor: ES32
+  version: 1.0
+chip:
+  chip_name: ES32F0654LT
+  clock_source: HSE
+  device_vendor: ES
+  family_name: ES32
+  rx_name: PD2
+  series_name: ES32F0
+  source_freq: '8000000'
+  sub_series_name: ES32F0654
+  target_freq: '48000000'
+  tx_name: PC12
+  uart_name: UART2
+default_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - drivers
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvoptx
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvoptx
+    - template.uvprojx
+    source_path_offset: rtt_default_project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/Sconscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: ''
+  project_name: ''
+  project_type: rt-thread|@full|@latest
+docs:
+- category: manual
+  file: documents/manuals/ES32F065x_Reference_Manual_C V1.5.pdf
+  title: Reference manual
+- category: sheet
+  file: documents/sheet/ES32F065x_Datasheet_C V1.4.pdf
+  title:  Datasheet
+example_projects: []
+features:
+- " "
+- " "
+- " "
+features_zh:
+- "MCU：ES32F0654LT，主频 48MHz，256KB FLASH ，32KB SRAM "
+- "LED：2个，LED1（PC8），LED2（PC9）"
+- "按键：2个，KEY1（PF0），KEY2（PF1），RESET(MRST)"
+- "常用接口：UART、SPI、I2C"
+- "调试接口：SWD"
+pkg_type: Board_Support_Packages
+pkg_vendor: 'RealThread'
+pkg_version: 0.0.1
+yaml_version: 1
